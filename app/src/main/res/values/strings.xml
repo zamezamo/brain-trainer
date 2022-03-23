@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name" translatable="false">Brain Trainer</string>
+    <string name="brain_trainer" translatable="false">BRAIN TRAINER</string>
+    <string name="your_score">Your score: %d</string>
+    <string name="max_score">Your maximum score: %d</string>
+    <string name="app_logo_brain">App logo: brain</string>
+    <string name="start_new_game">START NEW GAME</string>
+    <string name="right_answer">This is right answer!</string>
+    <string name="wrong_answer">This is wrong answer!</string>
+    <string name="chose0">Chose0</string>
+    <string name="chose2">Chose2</string>
+    <string name="chose1">Chose1</string>
+    <string name="chose3">Chose3</string>
+    <string name="game_new">Play new game !</string>
+    <string name="game_paused">The question will not be counted. Click on any answer</string>
+    <string name="game_over">Game over !</string>
+    <string name="score_play">Score: %d out of %d</string>
+    <string name="mistakes_play">Mistakes: %d/%d</string>
+</resources>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PlayGame">
+
+    <TextView
+        android:id="@+id/textViewChose0"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="#5C6BC0"
+        android:fontFamily="@font/sharksoftbites"
+        android:gravity="center"
+        android:onClick="onClickAnswer"
+        android:padding="36dp"
+        android:text="@string/chose0"
+        android:textColor="@color/white"
+        android:textSize="26sp"
+        app:layout_constraintBottom_toTopOf="@+id/textViewChose1"
+        app:layout_constraintEnd_toStartOf="@+id/textViewChose2"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewChose1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="#FFCA28"
+        android:fontFamily="@font/sharksoftbites"
+        android:gravity="center"
+        android:onClick="onClickAnswer"
+        android:padding="36dp"
+        android:text="@string/chose1"
+        android:textColor="@color/white"
+        android:textSize="26sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/textViewChose3"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewChose2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="#9CCC65"
+        android:fontFamily="@font/sharksoftbites"
+        android:gravity="center"
+        android:onClick="onClickAnswer"
+        android:padding="36dp"
+        android:text="@string/chose2"
+        android:textColor="@color/white"
+        android:textSize="26sp"
+        app:layout_constraintBottom_toTopOf="@+id/textViewChose3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/textViewChose0" />
+
+    <TextView
+        android:id="@+id/textViewChose3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="#7E57C2"
+        android:fontFamily="@font/sharksoftbites"
+        android:gravity="center"
+        android:onClick="onClickAnswer"
+        android:padding="36dp"
+        android:text="@string/chose3"
+        android:textColor="@color/white"
+        android:textSize="26sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/textViewChose1" />
+
+    <TextView
+        android:id="@+id/textViewTimer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:fontFamily="@font/sharksoftbites"
+        android:textColor="@color/green"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:fontFamily="@font/sharksoftbites"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewMistakes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:fontFamily="@font/sharksoftbites"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewScore" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.3" />
+
+    <TextView
+        android:id="@+id/textViewExample"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/sharksoftbites"
+        android:textColor="@color/purple_400"
+        android:textSize="48sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline" />
+
+    <TextView
+        android:id="@+id/textViewIsRight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/sharksoftbites"
+        android:gravity="center"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewExample" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
