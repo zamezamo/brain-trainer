@@ -14,5 +14,5 @@ A minimalistic game for solving mathematical examples on **Android** with levels
 *`Contributions are welcome)`*
 
 # Download and usage
-You can clone the repository with the following command: ```git clone https://github.com/zamezamo/brain-trainer.git```  
+You can clone the repository with the following command: *```git clone https://github.com/zamezamo/brain-trainer.git```*  
 Download the APK release: [*```brain-trainer.apk```*](https://github.com/zamezamo/brain-trainer/raw/master/app/release/app-release.apk)
